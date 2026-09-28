@@ -1,11 +1,11 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "configVersion": 1,
   "releaseDate": "2026-09-28",
   "channel": "stable",
   "minAppVersion": "1.0.0",
   "updateUrl": "https://5StarBosha.github.io/echo-macro-releases/latest.json",
-  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.3/EchoMacro-1.0.3.exe",
+  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.4/EchoMacro-1.0.4.exe",
   "changelog": [
     {
       "version": "1.0.2",
