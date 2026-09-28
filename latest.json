@@ -1,12 +1,21 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "configVersion": 1,
   "releaseDate": "2026-09-28",
   "channel": "stable",
   "minAppVersion": "1.0.0",
   "updateUrl": "https://5StarBosha.github.io/echo-macro-releases/latest.json",
-  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.1/EchoMacro-1.0.1.exe",
+  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.2/EchoMacro-1.0.2.exe",
   "changelog": [
+    {
+      "version": "1.0.2",
+      "date": "2026-09-28",
+      "highlights": [
+        "Movement keys, Jump, and Open Chat now use the same key-capture widget as hotkeys",
+        "Fixed 'ENOTEMPTY: directory not empty' error when downloading updates",
+        "HUD falls back to the built-in renderer if the Electron HUD process fails to launch"
+      ]
+    },
     {
       "version": "1.0.1",
       "date": "2026-09-28",
