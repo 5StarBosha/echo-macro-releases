@@ -1,20 +1,28 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "configVersion": 1,
   "releaseDate": "2026-09-28",
   "channel": "stable",
   "minAppVersion": "1.0.0",
   "updateUrl": "https://5StarBosha.github.io/echo-macro-releases/latest.json",
-  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.4/EchoMacro-1.0.4.exe",
+  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.5/EchoMacro-1.0.5.exe",
   "changelog": [
+    {
+      "version": "1.0.5",
+      "date": "2026-09-28",
+      "highlights": [
+        "Fixed a crash dialog during updates when antivirus was scanning the downloaded file",
+        "Updates now always install as EchoMacro.exe instead of version-numbered filenames",
+        "Fixed two macro instances running at the same time after an update",
+        "Startup now cleans up leftover version-numbered executables from earlier builds",
+        "Improved reliability of file downloads on machines with aggressive antivirus"
+      ]
+    },
     {
       "version": "1.0.4",
       "date": "2026-09-28",
       "highlights": [
-        "Updates now always install as EchoMacro.exe instead of versioned filenames",
-        "Fixed two macro instances running at once after an update",
-        "Fixed 'file is being used by another process' error when writing HUD state",
-        "Startup now cleans up leftover versioned executables from earlier builds"
+        "Internal build for the update pipeline overhaul"
       ]
     },
     {
@@ -24,9 +32,16 @@
         "Movement keys, Jump, Hotbar slots, and Open Chat now use the same key-capture widget as hotkeys",
         "Fixed Space key not being capturable in keybind fields",
         "Editor hints and tooltips update live as you change keybinds",
-        "Fixed ENOTEMPTY download error when updating",
+        "Fixed the 'ENOTEMPTY' download error when updating",
         "HUD now shows at startup even without Minecraft open",
         "HUD falls back to the built-in AHK renderer if the Electron HUD fails to launch"
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-28",
+      "highlights": [
+        "Internal test build for the update pipeline"
       ]
     },
     {
