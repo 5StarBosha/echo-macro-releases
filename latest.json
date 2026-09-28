@@ -1,18 +1,24 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "configVersion": 1,
   "releaseDate": "2026-09-28",
   "channel": "stable",
   "minAppVersion": "1.0.0",
   "updateUrl": "https://5StarBosha.github.io/echo-macro-releases/latest.json",
-  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.6/EchoMacro-1.0.6.exe",
+  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.7/EchoMacro-1.0.7.exe",
   "changelog": [
+    {
+      "version": "1.0.7",
+      "date": "2026-09-28",
+      "highlights": [
+        "Fixed a rare case where two macro windows could open after an update",
+        "New single-instance guard ensures only one Echo Macro can run at a time"
+      ]
+    },
     {
       "version": "1.0.6",
       "date": "2026-09-28",
       "highlights": [
-        "Fixed a rare case where two macro windows could open after an update",
-        "New single-instance guard ensures only one Echo Macro can run at a time",
         "Cleaned up leftover processes more reliably on startup"
       ]
     },
@@ -22,8 +28,6 @@
       "highlights": [
         "Fixed a crash dialog during updates when antivirus was scanning the downloaded file",
         "Updates now always install as EchoMacro.exe instead of version-numbered filenames",
-        "Fixed two macro instances running at the same time after an update",
-        "Startup now cleans up leftover version-numbered executables from earlier builds",
         "Improved reliability of file downloads on machines with aggressive antivirus"
       ]
     },
