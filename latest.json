@@ -1,12 +1,25 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "configVersion": 1,
   "releaseDate": "2026-09-28",
   "channel": "stable",
   "minAppVersion": "1.0.0",
   "updateUrl": "https://5StarBosha.github.io/echo-macro-releases/latest.json",
-  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.2/EchoMacro-1.0.2.exe",
+  "downloadUrl": "https://github.com/5StarBosha/echo-macro-releases/releases/download/v1.0.3/EchoMacro-1.0.3.exe",
   "changelog": [
+    {
+      "version": "1.0.3",
+      "date": "2026-09-28",
+      "highlights": [
+        "Movement keys, Jump, Hotbar slots, and Open Chat now use the same key-capture widget as hotkeys",
+        "Fixed Space key not being capturable in keybind fields",
+        "Editor hints and tooltips update live as you change keybinds",
+        "Fixed ENOTEMPTY download error when updating",
+        "HUD now shows at startup even without Minecraft open",
+        "HUD falls back to the built-in AHK renderer if the Electron HUD fails to launch",
+        "Updated launcher is saved under its versioned filename (EchoMacro-1.0.3.exe) instead of overwriting EchoMacro.exe"
+      ]
+    },
     {
       "version": "1.0.2",
       "date": "2026-09-28",
